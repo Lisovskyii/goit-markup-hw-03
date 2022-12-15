@@ -128,12 +128,15 @@ color: #4D5AE5;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #434455;
-      margin-right: 40px;
+
       
 }
 .contacts:hover,
 .contacts:focus{
    color: #4D5AE5;
+}
+.contacts-list:not(:last-child){
+   margin-right: 40px;
 }
 
 /* ==================HERO =============*/
@@ -247,7 +250,7 @@ flex-wrap: wrap;
 }
 .portfolio-icon > .portfolio-card
 {
-   flex-basis: calc(100% / 3 - 24px);
+   /* flex-basis: calc(100% / 3 - 24px); */
    margin-right: 24px;
       /* margin-top: 24px; */
 margin-bottom: 48px;
